@@ -22,14 +22,15 @@ export default function Message() {
     return (
         <div className = 'Message-Div'>
             <div className='conversation-div'>
-                    <input placeholder='Message...' onChange ={(event) => {
-                        setMessage(event.target.value);
-                    }}/>
-                    <button onClick = {sendMessage}>Send Message</button>
-                    <h1>Message: </h1>
-                    {messageReceived}
+                <h1>Message: </h1>
+                {messageReceived}
             </div>
-            <div className='typemessage-div'></div>
+            <div className='typemessage-div'>
+                <input placeholder='Message...' onChange ={(event) => {
+                    setMessage(event.target.value);
+                }}/>
+                <button onClick = {sendMessage}>Send Message</button>
+            </div>
         </div>
     )
 }
