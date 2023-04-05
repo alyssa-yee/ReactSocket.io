@@ -4,7 +4,7 @@ import {useEffect, useState} from 'react';
 
 // cd server npm start to get the server running
 // cd client/my-react-app -> npm start to get the page running
-// test
+// 
 
 const socket = io.connect("http://localhost:3001")
 
