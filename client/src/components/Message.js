@@ -26,10 +26,10 @@ export default function Message() {
                 {messageReceived}
             </div>
             <div className='typemessage-div'>
-                <input placeholder='Message...' onChange ={(event) => {
+                <input className='input-message' placeholder='Type your message here...' onChange ={(event) => {
                     setMessage(event.target.value);
                 }}/>
-                <button onClick = {sendMessage}>Send Message</button>
+                <button className = 'send-btn' onClick = {sendMessage}>Send</button>
             </div>
         </div>
     )

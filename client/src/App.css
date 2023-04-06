@@ -214,6 +214,26 @@ a:active {
   margin-top: 2%;
 }
 
-/* .Message-Div{
-  display: inline-block;
-} */
+/* Message.js */
+.input-message{
+  display:flex inline-block;
+  background-color: #E6EAEC;
+  border: none;
+  margin-left: 5vw;
+  margin-top: 2vw;
+  padding: 10px;
+}
+
+.send-btn{
+  float: right;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px 22px;
+  font-size:  15px;
+  border: none;
+  color: #608799;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+}
